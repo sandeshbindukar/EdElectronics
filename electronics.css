@@ -1,0 +1,32 @@
+@import url('https://stockfont.org/?61d8d93e96daea17784e70dab543e8db3a80e91561d70ef7787a11085c0aa46d');
+
+body > section {grid-area: img; height: 20vh; background-position: center center;
+	background-image: url(images/randombanner.php);
+	max-height: 300px;
+	background-position: center center;}
+
+main {min-height: 20vh; grid-area: main; padding: 5vw; background-color: #E8E8E8;}
+main h1, main a {color: #92B2BF;}
+aside {background-color: #2A3F52; min-height: 20px; grid-area: aside; padding: 1vw; color: white;}
+aside ul {list-style-type: none; margin-bottom: 1em;}
+aside li {padding-left: 20px;}
+aside > ul > li {font-size: 2em;}
+aside > ul > li > ul {font-size: 0.5em;}
+aside a {color: #333; text-decoration: none}
+
+h2 {margin-top: 0.5em;  margin-bottom: 0.5em;}
+form label, form input, form textarea {margin-top: 0.5em; margin-bottom: 0.5em ;box-sizing: border-box;  display: block; width: 36%; padding: 1%; }
+form input[type="submit"] {margin-left: 26%;}
+form {overflow: auto;}
+
+.products, .reviews {list-style-type: none; text-decoration: none;}
+.products li, .reviews li {padding: 2em;}
+.products li:nth-child(odd), .reviews li:nth-child(odd) {background-color: #fff;}
+.products li:nth-child(even), .products li:nth-child(even) {background-color: #ddd;}
+
+.price { text-align: right; color: darkgreen; font-family: 'Audiowide'; font-weight: bold; font-size: 2em;}
+
+.reviews .details {text-align: right;}
+
+h4 {margin-top: 1em; margin-bottom: 1em;}
+
